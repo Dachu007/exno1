@@ -247,7 +247,9 @@ for col in outlier_columns:
 
 
 
+# Summary
 
+I used Pandas for data cleaning and Matplotlib for data visualization.  The first program focuses on cleaning a height dataset and removing outliers using the IQR method. The second program performs advanced data cleaning by handling missing values using mode and median imputation, removing duplicates, and detecting outliers in multiple numerical columns. Finally, boxplots are used to compare the datasets before and after outlier removal. I chose the IQR method because it is simple, easy to implement and does not require the data to follow a normal distribution. It is less affected by extreme values compared to the Z-score method. It also helps to detect outliers using Q1, Q3 and the IQR range. Therefore, I selected IQR for my datasets."
 
 
 
